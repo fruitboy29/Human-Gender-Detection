@@ -15,6 +15,11 @@ python3 train_ssd.py --data=data/person --model-dir=models/person --batch-size=4
 
 # Running This Project
 To run this AI detection of humans, few steps must be completed:
+Before doing this, navigate into the docker through using following code - 
+cd ~/jetson-inference/
+./docker/run.sh
+cd python/training/detection/ssd
+
 1. Find and download a video that includes people that can be recognized as a girl, boy, man, or woman as an mp4.
 2. *Optional* Rename the video to something easy to remember and type.
 3. Drag and drop the downloaded video into the data directory on the left hand side with all the directories under jetson-inference/python/training/detection/ssd/data.
