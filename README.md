@@ -32,3 +32,5 @@ To run this AI detection of humans, few steps must be completed:
 For [yourvideoname.mp4] and [yournameOutput.mp4], make sure the videoname typed is the one downloaded which is made easier if you renamed it earlier. The output can be called whatever you want it to be.
 
 *Note there is a demo video in the demo folder of the github project*
+
+Explanation video link: https://drive.google.com/file/d/1clXkDSL7Eud45ieBMZOP3qcXVUPG-LCN/view?usp=sharing
