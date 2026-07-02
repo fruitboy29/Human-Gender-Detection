@@ -15,7 +15,7 @@ python3 train_ssd.py --data=data/person --model-dir=models/person --batch-size=4
 
 # Running This Project
 To run this AI detection of humans, few steps must be completed:
-Before doing this, navigate into the docker through using following code -
+*Write the first 3 in the terminal*
 1. cd ~/jetson-inference/
 2. ./docker/run.sh
 3. cd python/training/detection/ssd
