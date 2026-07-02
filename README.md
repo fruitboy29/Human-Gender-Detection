@@ -19,7 +19,7 @@ To run this AI detection of humans, few steps must be completed:
 2. *Optional* Rename the video to something easy to remember and type.
 3. Drag and drop the downloaded video into the data directory on the left hand side with all the directories under jetson-inference/python/training/detection/ssd/data.
 4. Convert the trained model from PyTorch to ONNX so it can be loaded with TensorRT by using the following code in the docker: python3 onnx_export.py --model-dir=models/person
-5. Use detectnet to load our custom SSD-Mobilenet ONNX model by using the following code in the terminal: detectnet --model=models/person/ssd-mobilenet.onnx --labels=models/person/labels.txt \
+5. Use detectnet to load our custom SSD-Mobilenet ONNX model by using the following code in the docker: detectnet --model=models/person/ssd-mobilenet.onnx --labels=models/person/labels.txt \
           --input-blob=input_0 --output-cvg=scores --output-bbox=boxes \
            data/[yourvideoname.mp4] data/[yournameOutput.mp4]
 *For [yourvideoname.mp4] and [yournameOutput.mp4], make sure the videoname typed is the one downloaded which is made easier if you renamed it earlier. The output can be called whatever you want it to be.
